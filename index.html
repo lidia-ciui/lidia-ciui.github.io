@@ -5,23 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Data Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f4; color: #333; }
-    h1, h2 { color: #2c3e50; }
-    section { margin-bottom: 60px; }
-    .project { background: white; padding: 20px; margin-top: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    img { display: block; margin-top: 10px; margin-bottom: 10px; border-radius: 4px; }
-    a { color: #2980b9; text-decoration: none; font-weight: bold; }
-    a:hover { text-decoration: underline; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    h1, h2 {
+      color: #81d4fa; /* light blue */
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    .portfolio-description {
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+      color: #b0bec5;
+      max-width: 800px;
+    }
+    .project {
+      background: #1e1e1e;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      color: #cfd8dc;
+    }
+    img {
+      display: block;
+      margin: 15px 0;
+      border-radius: 4px;
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    }
+    a {
+      color: #81d4fa;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    p.description-text {
+      margin-top: 10px;
+      color: #b0bec5;
+    }
   </style>
 </head>
 <body>
   <h1>My Data Portfolio</h1>
+  <p class="portfolio-description">
+    Welcome to my data portfolio! Here you can explore my projects across Power BI, Tableau, SQL, and Excel — showcasing data analysis, visualization, and cleaning skills. Feel free to check out the reports, dashboards, and downloadable files.
+  </p>
 
   <!-- Power BI Project -->
   <section id="powerbi">
     <h1>Power BI Projects</h1>
     <div class="project">
       <h2>Power BI – Spotify Most Streamed Tracks Report</h2>
+      <img src="images/powerbi-spotify-report.png" alt="Power BI Spotify Most Streamed Tracks Report" />
+      <p class="description-text">
+        This Power BI report analyzes Spotify's most streamed tracks, providing insights into listening trends, track popularity, and user engagement metrics.
+      </p>
       <p><a href="https://app.powerbi.com/view?r=eyJrIjoiMGUyYmVmMDYtOWFkMy00ZTJkLTg1NGUtMzllYTY1YzBkYjE4IiwidCI6IjkwYmM3Mjk4LTFjMTctNDhjNi04MzBiLWU4OGIzNzVmMjE2ZCIsImMiOjh9" target="_blank">🔗 View Report</a></p>
     </div>
   </section>
@@ -31,6 +77,10 @@
     <h1>Tableau Projects</h1>
     <div class="project">
       <h2>Tableau – Covid Deaths Dashboard</h2>
+      <img src="images/tableau-covid-dashboard.png" alt="Tableau Covid Deaths Dashboard" />
+      <p class="description-text">
+        A comprehensive Tableau dashboard visualizing COVID-19 death statistics globally, highlighting trends by region and over time.
+      </p>
       <p><a href="https://public.tableau.com/app/profile/ciui.lidia.bianca/viz/CovidDeathsDashboard_17449900283970/Dashboard1" target="_blank">🔗 View Dashboard</a></p>
     </div>
   </section>
@@ -40,11 +90,15 @@
     <h1>SQL Projects</h1>
     <div class="project">
       <h2>SQL – Data Exploration</h2>
-      <p>Description to be added.</p>
+      <p class="description-text">
+        An exploratory project using SQL to query and analyze complex datasets, uncovering initial insights and data quality issues.
+      </p>
     </div>
     <div class="project">
       <h2>SQL – Data Cleaning</h2>
-      <p>Description to be added.</p>
+      <p class="description-text">
+        Focused on data cleansing using SQL queries to prepare raw datasets for analysis by handling missing values, duplicates, and formatting inconsistencies.
+      </p>
     </div>
   </section>
 
@@ -54,8 +108,10 @@
 
     <div class="project">
       <h2>Excel – Bike Purchase Dashboard</h2>
-      <p>Text to be edited</p>
-      <img src="images/bike-purchase-dashboard.png" alt="Excel Bike Purchase Dashboard" style="width:100%; max-width:600px;">
+      <p class="description-text">
+        Dashboard showing bike purchase trends, sales analysis, and customer behavior insights using Excel’s data visualization tools.
+      </p>
+      <img src="images/bike-purchase-dashboard.png" alt="Excel Bike Purchase Dashboard" />
       <p>
         <a href="https://github.com/yourusername/portfolio-projects/raw/main/bike-purchase-dashboard.xlsx" target="_blank">📥 Download Excel File</a>
       </p>
@@ -63,8 +119,10 @@
 
     <div class="project">
       <h2>Excel – Coffee Sales Dashboard</h2>
-      <p>Text to be edited</p>
-      <img src="images/coffee-sales-dashboard.png" alt="Excel Coffee Sales Dashboard" style="width:100%; max-width:600px;">
+      <p class="description-text">
+        An Excel dashboard illustrating coffee sales performance, seasonal trends, and revenue breakdown by product categories.
+      </p>
+      <img src="images/coffee-sales-dashboard.png" alt="Excel Coffee Sales Dashboard" />
       <p>
         <a href="https://github.com/yourusername/portfolio-projects/raw/main/coffee-sales-dashboard.xlsx" target="_blank">📥 Download Excel File</a>
       </p>
