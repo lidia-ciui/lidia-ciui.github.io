@@ -1,31 +1,75 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Data Portfolio</title>
   <style>
-    body { font-family: sans-serif; margin: 40px; }
-    h1 { color: #2c3e50; }
-    .project { margin-bottom: 20px; }
-    a { color: #2980b9; text-decoration: none; }
+    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f4; color: #333; }
+    h1, h2 { color: #2c3e50; }
+    section { margin-bottom: 60px; }
+    .project { background: white; padding: 20px; margin-top: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    img { display: block; margin-top: 10px; margin-bottom: 10px; border-radius: 4px; }
+    a { color: #2980b9; text-decoration: none; font-weight: bold; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <h1>My Data Portfolio</h1>
 
-  <div class="project">
-    <h2>Power BI – Spotify Most Streamed Tracks Report</h2>
-    <p><a href="https://app.powerbi.com/view?r=eyJrIjoiMGUyYmVmMDYtOWFkMy00ZTJkLTg1NGUtMzllYTY1YzBkYjE4IiwidCI6IjkwYmM3Mjk4LTFjMTctNDhjNi04MzBiLWU4OGIzNzVmMjE2ZCIsImMiOjh9" target="_blank">View Report</a></p>
-  </div>
+  <!-- Power BI Project -->
+  <section id="powerbi">
+    <h1>Power BI Projects</h1>
+    <div class="project">
+      <h2>Power BI – Spotify Most Streamed Tracks Report</h2>
+      <p><a href="https://app.powerbi.com/view?r=eyJrIjoiMGUyYmVmMDYtOWFkMy00ZTJkLTg1NGUtMzllYTY1YzBkYjE4IiwidCI6IjkwYmM3Mjk4LTFjMTctNDhjNi04MzBiLWU4OGIzNzVmMjE2ZCIsImMiOjh9" target="_blank">🔗 View Report</a></p>
+    </div>
+  </section>
 
-  <div class="project">
-    <h2>SQL – Data Exploration and Data Cleaning</h2>
-    <p><a href="https://github.com/yourusername/sql-project" target="_blank">View Code on GitHub</a></p>
-  </div>
+  <!-- Tableau Project -->
+  <section id="tableau">
+    <h1>Tableau Projects</h1>
+    <div class="project">
+      <h2>Tableau – Covid Deaths Dashboard</h2>
+      <p><a href="https://public.tableau.com/app/profile/ciui.lidia.bianca/viz/CovidDeathsDashboard_17449900283970/Dashboard1" target="_blank">🔗 View Dashboard</a></p>
+    </div>
+  </section>
 
-  <div class="project">
-    <h2>Tableau – Covid Deaths Dashboard</h2>
-    <p><a href="https://public.tableau.com/app/profile/ciui.lidia.bianca/viz/CovidDeathsDashboard_17449900283970/Dashboard1" target="_blank">View Tableau Dashboard</a></p>
-  </div>
+  <!-- SQL Projects -->
+  <section id="sql">
+    <h1>SQL Projects</h1>
+    <div class="project">
+      <h2>SQL – Data Exploration</h2>
+      <p>Description to be added.</p>
+    </div>
+    <div class="project">
+      <h2>SQL – Data Cleaning</h2>
+      <p>Description to be added.</p>
+    </div>
+  </section>
+
+  <!-- Excel Projects -->
+  <section id="excel-projects">
+    <h1>Excel Projects</h1>
+
+    <div class="project">
+      <h2>Excel – Bike Purchase Dashboard</h2>
+      <p>Text to be edited</p>
+      <img src="images/bike-purchase-dashboard.png" alt="Excel Bike Purchase Dashboard" style="width:100%; max-width:600px;">
+      <p>
+        <a href="https://github.com/yourusername/portfolio-projects/raw/main/bike-purchase-dashboard.xlsx" target="_blank">📥 Download Excel File</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h2>Excel – Coffee Sales Dashboard</h2>
+      <p>Text to be edited</p>
+      <img src="images/coffee-sales-dashboard.png" alt="Excel Coffee Sales Dashboard" style="width:100%; max-width:600px;">
+      <p>
+        <a href="https://github.com/yourusername/portfolio-projects/raw/main/coffee-sales-dashboard.xlsx" target="_blank">📥 Download Excel File</a>
+      </p>
+    </div>
+  </section>
+
 </body>
 </html>
